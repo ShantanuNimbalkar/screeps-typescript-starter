@@ -13,5 +13,7 @@
     "plugins" : "@typescript-eslint"
   },
   "extends" : [ "eslint:recommended", "plugin:@typescript-eslint/recommended" ],
-  "rules" : { }
+  "rules" : {
+    "TS_no-explicit-any":0
+  }
 }
